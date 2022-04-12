@@ -23,9 +23,9 @@ from AppFlia.views import familia, profesion, ubicacion
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludo/', saludo),
-    path('segundosaludo/', segundosaludo),
-    path('saluda_con_nombre/<nombre>/<edad>/', saluda_con_nombre),
+    # path('saludo/', saludo),
+    # path('segundosaludo/', segundosaludo),
+    # path('saluda_con_nombre/<nombre>/<edad>/', saluda_con_nombre),
     path('templateFamilia/<nombre>/',templateFamilia),
     path('agrega-familia/<nombre>/<parentesco>/<dni>/',familia),
     path('agrega-profesion/<universidad>/<facultad>/<email>/',profesion),
